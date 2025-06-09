@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GloboCorp GPT Genie</title>
+  <link rel="stylesheet" href="style.css" />
+  <noscript>
+    <style>
+      .no-js-warning {
+        background: #fff3cd;
+        color: #856404;
+        border: 1px solid #ffeeba;
+        padding: 10px;
+        margin: 20px;
+      }
+    </style>
+  </noscript>
+</head>
+<body>
+  <noscript>
+    <div class="no-js-warning">
+      JavaScript is required to use GloboCorp's GPT Genie. Please enable JavaScript in your browser.
+    </div>
+  </noscript>
+
+  <main class="genie-container">
+    <h1 class="genie-title">GloboCorp GPT Genie</h1>
+    <p class="genie-subtitle">Tell us your wishes and all of your dreams will come true!</p>
+
+    <section id="chat" class="chat-box" aria-live="polite"></section>
+
+    <form id="genie-form" class="genie-form" autocomplete="off">
+      <input type="text" id="user-input" name="user-input" placeholder="Ask the Genie..." required aria-label="Your message to the Genie"/>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <script src="genieFunc.js" defer></script>
+</body>
+</html>
